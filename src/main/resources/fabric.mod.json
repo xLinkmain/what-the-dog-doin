@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "what_the_dog_doin",
+  "version": "${version}",
+
+  "name": "What The Dog Doing",
+  "description": "Manage them dogs and know what the dogs are doing!!1121",
+  "authors": [
+    "Linkmain"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.linkmain.what_the_dog_doin.DogMod"
+    ],
+    "client": [
+      "net.linkmain.what_the_dog_doin.DogModClient"
+    ]
+  },
+  "mixins": [
+    "what_the_dog_doin.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

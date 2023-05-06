@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.linkmain.what_the_dog_doin.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "ExampleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
